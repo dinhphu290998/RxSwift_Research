@@ -1,18 +1,16 @@
 //
-//  ViewController.swift
+//  SubjectViewController.swift
 //  ResearchRxSwift
 //
-//  Created by NDPhu on 7/30/20.
+//  Created by NDPhu on 7/31/20.
 //  Copyright © 2020 IOS_Team. All rights reserved.
 //
 
 import UIKit
-import RxCocoa
 import RxSwift
+import RxCocoa
 
-// TÌM HIỂU VỀ SUBJECT TRONG RXSWIFT
-
-class ViewController: UIViewController {
+class SubjectViewController: UIViewController {
 
     //Quản lí bộ nhớ trong RxSwift
     let bag = DisposeBag()
@@ -126,5 +124,5 @@ class ViewController: UIViewController {
     
     
     // Khác nhau giữa BehaviorRelay và BehaviorSubject đó là BehaviorRelay thì replay giá trị khởi tạo hoặc là giá trị cuối cùng chuỗi trước khi subscribe còn BehaviorSubject thì chỉ relay giá trị khởi tạo còn những giá trị sau thì .next chứ không phải là replay
-}
 
+}

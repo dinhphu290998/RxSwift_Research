@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		93B7BE9624D25EB30089735E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7BE9524D25EB30089735E /* AppDelegate.swift */; };
-		93B7BE9A24D25EB30089735E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7BE9924D25EB30089735E /* ViewController.swift */; };
-		93B7BE9D24D25EB30089735E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B7BE9B24D25EB30089735E /* Main.storyboard */; };
 		93B7BE9F24D25EB40089735E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B7BE9E24D25EB40089735E /* Assets.xcassets */; };
 		93B7BEA224D25EB40089735E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B7BEA024D25EB40089735E /* LaunchScreen.storyboard */; };
+		93C9F19224D3ABA800973F4B /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F19024D3ABA800973F4B /* SubjectViewController.swift */; };
+		93C9F19324D3ABA800973F4B /* SubjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C9F19124D3ABA800973F4B /* SubjectViewController.xib */; };
+		93C9F19A24D3BBA100973F4B /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F19824D3BBA100973F4B /* SchedulerViewController.swift */; };
+		93C9F19B24D3BBA100973F4B /* SchedulerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C9F19924D3BBA100973F4B /* SchedulerViewController.xib */; };
 		DEDCE501A42028B14B3BE588 /* Pods_ResearchRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9417A6D1B156262C3C53261F /* Pods_ResearchRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +22,13 @@
 		75708A665D0516FED290226B /* Pods-ResearchRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResearchRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-ResearchRxSwift/Pods-ResearchRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		93B7BE9224D25EB30089735E /* ResearchRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B7BE9524D25EB30089735E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B7BE9924D25EB30089735E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93B7BE9C24D25EB30089735E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B7BE9E24D25EB40089735E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B7BEA124D25EB40089735E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B7BEA324D25EB40089735E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C9F19024D3ABA800973F4B /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		93C9F19124D3ABA800973F4B /* SubjectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectViewController.xib; sourceTree = "<group>"; };
+		93C9F19824D3BBA100973F4B /* SchedulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerViewController.swift; sourceTree = "<group>"; };
+		93C9F19924D3BBA100973F4B /* SchedulerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchedulerViewController.xib; sourceTree = "<group>"; };
 		9417A6D1B156262C3C53261F /* Pods_ResearchRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResearchRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,11 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				93B7BE9524D25EB30089735E /* AppDelegate.swift */,
-				93B7BE9924D25EB30089735E /* ViewController.swift */,
-				93B7BE9B24D25EB30089735E /* Main.storyboard */,
 				93B7BE9E24D25EB40089735E /* Assets.xcassets */,
 				93B7BEA024D25EB40089735E /* LaunchScreen.storyboard */,
 				93B7BEA324D25EB40089735E /* Info.plist */,
+				93C9F19024D3ABA800973F4B /* SubjectViewController.swift */,
+				93C9F19124D3ABA800973F4B /* SubjectViewController.xib */,
+				93C9F19824D3BBA100973F4B /* SchedulerViewController.swift */,
+				93C9F19924D3BBA100973F4B /* SchedulerViewController.xib */,
 			);
 			path = ResearchRxSwift;
 			sourceTree = "<group>";
@@ -148,9 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C9F19324D3ABA800973F4B /* SubjectViewController.xib in Resources */,
 				93B7BEA224D25EB40089735E /* LaunchScreen.storyboard in Resources */,
+				93C9F19B24D3BBA100973F4B /* SchedulerViewController.xib in Resources */,
 				93B7BE9F24D25EB40089735E /* Assets.xcassets in Resources */,
-				93B7BE9D24D25EB30089735E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,22 +210,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B7BE9A24D25EB30089735E /* ViewController.swift in Sources */,
+				93C9F19224D3ABA800973F4B /* SubjectViewController.swift in Sources */,
 				93B7BE9624D25EB30089735E /* AppDelegate.swift in Sources */,
+				93C9F19A24D3BBA100973F4B /* SchedulerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93B7BE9B24D25EB30089735E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93B7BE9C24D25EB30089735E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93B7BEA024D25EB40089735E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
